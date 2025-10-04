@@ -72,9 +72,11 @@ par(mar=c(3,17,2,2))
 plot(TukeyHSD(model1,conf.level=0.98),las=2,)
 ```
 
-After plotting i see that 98% confidence level, the confidence4 doesn't pass through are LT high school Graduate and high School graduate. This sugest that they are significantly different.
+After plotting i see that 98% confidence level, the confidence4 doesn't pass through are LT high school Graduate and high School graduate. This suggest that they are significantly different.
 
 
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+In this assignment I learned to analyze Numerical categorical data with two more categorizes. I compared WORDSUM and DEGREE in this assignment.
