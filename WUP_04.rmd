@@ -67,6 +67,13 @@ summary.aov(model1)
 ```
 When observing, I see the p-value is 0.000236. Which tells me the is a large diffenc between the categories
 
+```{r}
+par(mar=c(3,17,2,2))
+plot(TukeyHSD(model1,conf.level=0.98),las=2,)
+```
+
+After plotting i see that 98% confidence level, the confidence4 doesn't pass through are LT high school Graduate and high School graduate. This sugest that they are significantly different.
+
 
 # Discussion and Conclusion
 
