@@ -10,9 +10,10 @@ output:
 ```{r include=FALSE,echo=FALSE}
 require(knitr)
 require(tidyverse)
-require(tigerstats)
+require(tigerstats) 
+GSScsv.csv <-read_csv("GSScsv.csv")
+``` 
 
-```
 
 # Introduction
 
@@ -36,6 +37,14 @@ This data is numerical categorical and i will be using a helper file to help me 
 ### Graphical Descriptive Results
 
 <!--Graphical results here.  Make sure to show your code.  Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too.  Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+
+```{r}
+basicCN <- ggplot(GSScsv.csv,aes(y=WORDSUM,x=DEGREE))
+```
+```{r}
+basicCN + geom_boxplot()
+```
+```
 
 ### Numerical Descriptive Results
 
