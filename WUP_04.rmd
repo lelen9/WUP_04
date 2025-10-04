@@ -25,6 +25,7 @@ $H_a$ There is a significant difference in average score on the WORDSUM test bet
 # Methods
 
 <!--Mention that you intend to use chatGPT to the greatest extent possible. Give credit to chatGPT when you use it to create code in your report. Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method.!-->
+This data is numerical categorical and i will be using a helper file to help me solve the assignment.
 
 # Results
 
@@ -40,9 +41,7 @@ $H_a$ There is a significant difference in average score on the WORDSUM test bet
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
-```{r}
-favstats(weight~feed,data=mydata)
-```
+`
 
 ## Inferential Results
 
